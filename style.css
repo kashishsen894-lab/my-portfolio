@@ -1,0 +1,89 @@
+/* Reset — sab browsers mein same dikhe isliye */
+/* Reset — sab browsers mein same dikhe isliye */
+/* * Reset — sab browsers mein same dikhe isliye */ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1c2b2d;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #c9a24b;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #eae4d3;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* All sections common spacing */
+section {
+  padding: 60px 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Skills list */
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  display: inline-block;
+  background-color: #3f5d54;
+  color: white;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+/* Project cards */
+.project-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c2b2d;
+  color: white;
+}
+
